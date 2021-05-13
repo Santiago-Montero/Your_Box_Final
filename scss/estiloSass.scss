@@ -4,6 +4,7 @@
 .contenedor__Imagen{
     width: 100%;
 }
+
 .contenedor__cajaFondo{ /* centrar texto de la imgen*/
     display: flex;
     flex-flow: row wrap; 
@@ -51,14 +52,14 @@
 }
   /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 32rem;
+    height: 30rem;
 }
 .carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 30rem;
 }
 
 /*index*/
@@ -131,7 +132,9 @@
     justify-content: center;
 }
 
-
+.productCartelera{
+    border-radius: 1rem;
+}
 .productos{
     display: flex;
     flex-flow: row wrap;
@@ -159,16 +162,15 @@
     font-size: 1.5rem;
     background-color: #f2f2f2;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius:0.8rem;
 }
 .productos__item:hover >.productos__item--img{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 /* contactanos*/
-.contactoBody{
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+.buscardudas{
+    height: 500px;
 }
 .footer__lista{
     list-style: none;
@@ -179,6 +181,13 @@
     text-decoration: none;
     color: saddlebrown;
 }
-.completando{
-    height: 500px;
+.contenedor__Imagen--Pregunta{
+    background-image: url("../img/pregunta-min.jpg");
+    background-size: cover;
+    border-radius: 1em;
+}
+.contenedor__Imagen--Enojado{
+    background-image: url("../img/enojado-min.jpg");
+    background-size: cover;
+    border-radius: 1em;
 }
