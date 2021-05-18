@@ -197,6 +197,7 @@ nav a h5 {
 
 .patrocina {
   width: 100%;
+  padding-bottom: 10px;
   background-color: #203647; }
   .patrocina h2 {
     color: #fafafa; }
@@ -212,19 +213,50 @@ nav a h5 {
 h3 {
   color: #fafafa; }
 
-.productob {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  background-color: #007CC7; }
-
-.productob-texto {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center; }
-
-.productob-img {
+.carteleraLogos {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: space-around; }
+
+.carteleraLogos--items {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px; }
+
+.carteleraLogos--img {
+  height: 300px; }
+  .carteleraLogos--img img {
+    height: 300px;
+    width: 500px; }
+
+.carteleraCelus {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #007CC7; }
+
+.carteleraCelus--items {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px; }
+
+.carteleraCelus--texto {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.carteleraCelus--img {
+  height: 300px; }
+  .carteleraCelus--img img {
+    height: 300px;
+    width: 300px; }
+
+.carteleraCelus--items:hover > .carteleraCelus--img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }

@@ -143,7 +143,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
 }
 .productos__item--texto{
     display: flex;
@@ -208,6 +207,7 @@ nav{
 }
 .patrocina{
     width: 100%;
+    padding-bottom: 10px;
     background-color:#203647;
     h2{
         color: rgb(250, 250, 250);
@@ -226,20 +226,55 @@ nav{
 h3{
     color: rgb(250, 250, 250);
 }
-.productob{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    background-color:#007CC7;
-}
-.productob-texto{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-.productob-img{
+.carteleraLogos{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+}
+.carteleraLogos--items{
+    display: flex;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.carteleraLogos--img{
+    height: 300px;
+    img{
+        height: 300px;
+        width: 500px;
+    }
+}
+
+
+.carteleraCelus{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color:#007CC7;
+}
+.carteleraCelus--items{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.carteleraCelus--texto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.carteleraCelus--img{
+    height: 300px;
+    img{
+        height: 300px;
+        width: 300px;
+    }
+}
+.carteleraCelus--items:hover >.carteleraCelus--img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
